@@ -33,6 +33,7 @@ public class ProductController {
             return ResponseEntity.ok(product1);
         }
         System.out.println("lỗi");
+        System.out.println("Thất Bại");
         return null;
     }
 }
