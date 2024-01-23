@@ -35,6 +35,8 @@ public class ProductController {
         System.out.println("lỗi");
         System.out.println("Thất Bại");
         // Check lại lỗi xem có phải sửa khi commit không?
+        System.out.println("Thành Công!");
+        // Check pull xem có lỗi tiếng việt không
         return null;
     }
 }
