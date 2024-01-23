@@ -34,6 +34,7 @@ public class ProductController {
         }
         System.out.println("lỗi");
         System.out.println("Thất Bại");
+        // Check lại lỗi xem có phải sửa khi commit không?
         return null;
     }
 }
