@@ -40,6 +40,8 @@ public class ProductController {
 
 
         System.out.println("Tôi Là Hiếu");
+
+        System.out.println("OK tôi chấp nhận!");
         return null;
     }
 }
