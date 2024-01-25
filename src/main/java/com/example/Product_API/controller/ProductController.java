@@ -15,7 +15,6 @@ import java.util.Optional;
 @RequestMapping("/pro-api")
 @RequiredArgsConstructor
 public class ProductController {
-
     private final ProductService productService;
 
     @GetMapping("/get-all")
@@ -42,6 +41,8 @@ public class ProductController {
         System.out.println("Tôi Là Hiếu");
 
         System.out.println("OK tôi chấp nhận!");
+
+        System.out.println("Hãy đẩy code đi");
         return null;
     }
 }
